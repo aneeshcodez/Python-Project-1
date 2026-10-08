@@ -1,4 +1,5 @@
 class Employee:
+    # Constructor
     def __init__(self,first,last,pay):
         # Instance variables
         self.first = first
@@ -32,6 +33,9 @@ print(Employee.emp_full_name(emp_1))
 1. Here 'self' is emp_1 / emp_2 i.e Employee object
 2. emp_1 / emp_2 is called as an Instance 
 3. Instance variables is used for Data that is Unique to each Instance. Here In this program ,It is set using 'self' argument
+4. The __init__() method is a special Python method that automatically initializes an 
+object's initial state and attributes when a new instance of a class is created.It is commonly 
+refereed as Constructor
 '''
 
 
