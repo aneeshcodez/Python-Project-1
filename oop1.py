@@ -13,7 +13,7 @@ class Employee:
 
 
 emp_1 = Employee("Lucy","Moritz",500)
-emp_2 = Employee("Luky","Eoritz",500)
+emp_2 = Employee("Luky","Eoritz",600)
 
 print(emp_1)
 print(emp_2)
