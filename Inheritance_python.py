@@ -62,7 +62,7 @@ dev_1 = Developer("Ram","Sam","400","python")
 manager_1 = Manager("Ramesh","Ragu",2000,[dev_1])
 manager_1.print_emp()
 
-# print(emp_1.first) # o/p : Suresh
+print(emp_1.first) # o/p : Suresh
 
 # print(help(Developer))
 # o/p :
@@ -71,10 +71,10 @@ manager_1.print_emp()
 #  |      Employee
 #  |      builtins.object
 
-# print(dev_1.prog_lang)
-# print(dev_1.pay)
-# dev_1.apply_raise()
-# print(dev_1.pay)
+print(dev_1.prog_lang)
+print(dev_1.pay)
+dev_1.apply_raise()
+print(dev_1.pay)
 
 
 '''
