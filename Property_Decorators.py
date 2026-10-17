@@ -28,8 +28,7 @@ print(emp.salary)
 
 
 # This will raise a ValueError
-# emp.salary = -1000
-
+emp.salary = -1000
 
 '''
 1.SINGLE LEADING UNDERSCORE : 
@@ -50,7 +49,7 @@ method into a "managed attribute". This means you can access, set, or delete dat
 clean dot notation (like obj.variable) while running custom logic, validation, 
 or dynamic computations behind the scenes.
 
-The @property decorator allows you to define methods that can be accessed exactly like 
+->The @property decorator allows you to define methods that can be accessed exactly like 
 normal attributes. This keeps your syntax clean while allowing you to add 
 logic (like data validation) behind the scenes
 
