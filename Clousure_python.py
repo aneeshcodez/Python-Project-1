@@ -6,10 +6,25 @@ def outer():
 
     return inner
 
-# outer() # This returns nothing so we need to call inner (closure in this program),this is another justification
+# We are storing inner() function's object in result. it was returned by outer function
 result = outer()
-print(type(result))
+print(type(result)) # result is a function object
 result()
 
+'''
+Reference Program : 
 
-# How can I make myself understand this instead of you explain this to me,tell the best and easiest way to understand this myself
+def greet():
+    print("Hello")
+
+another_function = greet
+another_function() # instead of greet()
+
+-------------------------------------------------------
+A closure allows a function to remember information from its enclosing scope, even after the enclosing function has finished executing.We want an inner function to retain access to variables from its enclosing function even after the enclosing function has finished executing.
+
+And one important clarification: closures don't keep the entire outer function running. The outer function finishes; Python retains the necessary referenced variable bindings for the inner function.
+
+That's the fundamental idea behind closures.
+'''
+

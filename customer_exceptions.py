@@ -33,3 +33,11 @@ except InsufficientBalanceError as error:
     print("Transaction failed:", error)
 
 print("Program execution completed.")
+
+'''
+When a class inherits from Exception class, you can pass your error message directly 
+as an argument when raising it (raise MyError("Message")), and Python will automatically 
+store that message and display it whenever the error is caught, printed, or 
+left unhandled in the terminal.
+
+'''
