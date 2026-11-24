@@ -40,6 +40,3 @@ refereed as Constructor
 
 
 
-# Read the Docs for this Class
-# Class variable definition
-# 4:33
